@@ -1,0 +1,33 @@
+/* img {
+    height: 25vh;
+} */
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+    /* width: 45vw; */
+    margin: 12px auto;
+    height: fit-content;
+}
+
+#people-wrapper,
+#about,
+#film-wrapper {
+    background-color: rgb(68, 169, 236);
+}
+
+.btn {
+    background-color: rgb(68, 169, 236) !important;
+    width: 25vw !important;
+    min-width: fit-content;
+    /* display: inline-flex; */
+}
+
+#page-wrapper {
+    background-color: rgb(226, 226, 226);
+    min-height: 100vh;
+    max-height: fit-content;
+}
+
